@@ -7,4 +7,6 @@ https://udhaysriram.github.io/FrontEnd/Resume/
 https://udhaysriram.github.io/FrontEnd/necLogin/
 # 4.Thematic Login Page Clone
 https://udhaysriram.github.io/FrontEnd/newLoginClone/login
+# 5.Apple Store Basic
+https://udhaysriram.github.io/FrontEnd/AppleStore/
 
