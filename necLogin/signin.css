@@ -1,0 +1,54 @@
+form input{
+    display: block;
+    width: 270px;
+    height: 28px;
+    margin: 13.6px auto;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 3px;
+    border-color: rgba(128, 128, 128, 0.4);
+}
+input:focus {border: 2px solid #055BB5; outline:none;}
+.contqoute{
+    color: #055bb5;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+.red{color: orangered;}
+.green{color: green;}
+.qoute{ text-align: center;}
+.foote a{
+    text-decoration: none;
+    margin-left: 90px;
+    margin-top: 10px;
+    color: #2A12FF;
+    font-size: 12.8px;
+}
+body{
+    font-family: 'Sophos Sans Regular',sans-serif;
+}
+.contimage{
+    background-color: #055bb5;
+    border: 16px solid #055bb5;
+}
+button{
+    color:white;
+    background-color: #44ac33;
+    border: #44ac33;
+    width: 279px;
+    height: 35px;
+    margin-left: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+.cont{
+    border: 1px solid rgba(128, 128, 128, 0.4);
+    width: 320px;
+    margin-left: 40%;
+    height: 442px;
+    border-radius: 8px;
+    margin-top: 70px;
+
+}
+
