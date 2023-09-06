@@ -9,4 +9,6 @@ https://udhaysriram.github.io/FrontEnd/necLogin/
 https://udhaysriram.github.io/FrontEnd/newLoginClone/login
 # 5.Apple Store Basic
 https://udhaysriram.github.io/FrontEnd/AppleStore/
+# 6.Clock using Javascript
+https://udhaysriram.github.io/FrontEnd/Clock/
 
