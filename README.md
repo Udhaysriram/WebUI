@@ -11,4 +11,6 @@ https://udhaysriram.github.io/WebUI/newLoginClone/login
 https://udhaysriram.github.io/WebUI/AppleStore/
 # 6.Clock using Javascript
 https://udhaysriram.github.io/WebUI/Clock/
+# 7.Onesmiledentalcare
+https://udhaysriram.github.io/WebUI/Onesmiledentalcare/
 
