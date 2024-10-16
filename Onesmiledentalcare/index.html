@@ -3,112 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Onesmiledentalcare</title>
-    <!-- <link rel="stylesheet" href="./style.css"> -->
-    <style>
-    * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    }
-
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-    }
-
-    header {
-        background-color: #0073e6;
-        color: #fff;
-        padding: 10px 0;
-    }
-
-    nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 20px;
-    }
-
-    nav ul {
-        list-style: none;
-        display: flex;
-    }
-
-    nav ul li {
-        margin-left: 20px;
-    }
-
-    nav ul li a {
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-    }
-
-    #hero {
-        background-color: #f4f4f4;
-        text-align: center;
-        padding: 100px 20px;
-        margin-bottom: 10px;
-    }
-
-    #hero h2 {
-        font-size: 36px;
-        color: #333;
-    }
-
-    .cta-button {
-        padding: 10px 25px;
-        background-color: #0073e6;
-        color: #fff;
-        text-decoration: none;
-        font-size: 18px;
-        border-radius: 5px;
-    }
-
-    #services, #about, #testimonials, #contact {
-        padding: 10px 10px;
-        text-align: center;
-    }
-
-    .service-card {
-        background-color: #f9f9f9;
-        padding: 20px;
-        margin: 10px;
-        border-radius: 10px;
-    }
-
-    .service-card img {
-        max-width: 10%; /* Ensures the image scales with the card's width */
-        height:auto;    /* Keeps the aspect ratio of the image */
-        display:grid;  /* Prevents inline spacing issues */
-        margin: 0 auto;  /* Centers the image inside the card */
-    }
-
-    form input, form textarea {
-        display: block;
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 10px;
-    }
-
-    button {
-        padding: 10px 20px;
-        background-color: #0073e6;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-
-    @media (min-width: 768px) {
-        #services {
-            display: flex;
-            justify-content: space-around;
-        }
-    }
-
-
-    </style>
+    <title>Onesmiledentalcare.in</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header>
@@ -123,52 +19,73 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <h2>Welcome to Chennai's Best Dental Care</h2>
-        <p>Providing world-class dental services with a personal touch.</p>
-        <a href="#contact" class="cta-button">Book an Appointment</a>
+    <section id="scr">
+        <marquee behavior="scroll" direction="left" style="color: black;" scrollamount="4">
+            Onesmiledentalcare&nbsp;-&nbsp;The Best&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Onesmiledentalcare&nbsp;-&nbsp;The Great&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Onesmiledentalcare&nbsp;-&nbsp;The Grace</marquee>
     </section>
 
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service-card">
-            <h3>Dental Implants</h3>
-            <img src="./images/implant.jpeg" alt="implant">
-            <p>Get the most advanced dental implants to restore your smile.</p>
+    <section id="hero">
+        <div style="">
+            <h2>Welcome to Chennai's Best Dental Care</h2>
+            <p>Providing world-class dental services with a personal touch.</p>
+            <div style="margin-top: 25px;">
+                <a href="#contact" class="cta-button">Book an Appointment</a>
+            </div>
         </div>
-        <div class="service-card">
-            <h3>Root Canal Treatment</h3>
-            <img src="./images/rootcanal.jpeg" alt="rootcanal">
-            <p>Expert root canal procedures with minimal discomfort.</p>
+    </section>
+
+    <section id="services" style="display: block;">
+        <h2>Our Services</h2>
+        <div id="outerdiv">
+            <div class="service-card">
+                <h3>Dental Implants</h3>
+                <img src="./images/implant.jpeg" alt="implant" width="50%">
+                <p>Get the most advanced dental implants to restore your smile
+                    Get the most advanced dental implants to restore your smileGet the most advanced dental implants to restore your smile.</p>
+            </div>
+            <div class="service-card">
+                <h3>Root Canal Treatment</h3>
+                <img src="./images/rootcanal.jpeg" alt="rootcanal" width="50%">
+                <p>Expert root canal procedures with minimal discomfort.
+                    Get the most advanced dental implants to restore your smile</p>
+            </div>
         </div>
         <!-- Add more service cards as needed -->
     </section>
 
     <section id="about">
-        <h2>About Us</h2>
-        <p>We are a team of dedicated professionals providing the best dental care in the city.</p>
+        <div style="background-color:lightgoldenrodyellow;">
+            <h2>About Us</h2>
+            <p>We are a team of dedicated professionals providing the best dental care in the city.</p>
+        </div>
     </section>
 
     <section id="testimonials">
-        <h2>What Our Patients Say</h2>
-        <blockquote>"The best dental care I have ever received!"</blockquote>
-        <blockquote>"Highly professional and caring staff."</blockquote>
+        <div style="background-color:#0073e6; color: #fff;">
+            <h2>What Our Patients Say</h2>
+            <blockquote>"The best dental care I have ever received!"</blockquote>
+            <blockquote>"Highly professional and caring staff."</blockquote>
+        </div>
     </section>
 
     <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+        <div style="background-color: lightgoldenrodyellow;">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </section>
 
-    <footer>
+    <footer style="background-color: black; color: #fff;">
         <p>© 2024 Onesmiledentalcare.in</p>
     </footer>
 </body>
